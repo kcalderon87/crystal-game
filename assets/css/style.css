@@ -1,0 +1,72 @@
+body {
+	background-image: url("../images/background.jpg");
+	font-family: 'Cabin', sans-serif;
+}
+
+.header {
+	background-color: orange;
+	padding: 40px;
+	margin-top: 20px;
+	font-size: 32px;
+	width: 30%;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.instructions {
+	background-color: #ffffff;
+	padding: 40px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-color: blue;
+	width: 40%;
+	margin-left: 30px;
+}
+
+.randomNumber {
+	padding:60px;
+	background-color: blue;
+	margin-left: 30px;
+	width:10%;
+	margin-top: 10px;
+	text-align: center;
+	
+}
+
+.scoreCount {
+	padding: 40px;
+	background-color: red;
+	margin-left: 30px;
+	width: 30%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.crystal {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin-left: 30px;
+	cursor: pointer;
+	margin-top: 10px;
+	
+}
+
+.totalScore {
+	padding: 40px;
+	background-color: red;
+	margin-left: 30px;
+	width: 20%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.total {
+	padding: 40px;
+	background-color: green;
+	margin-left: 30px;
+	width: 20%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+}
