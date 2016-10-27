@@ -1,5 +1,3 @@
-var wins = 0;
-var losses = 0;
 var numberToGuess;
 var crystalValue1;
 var crystalValue2;
@@ -26,12 +24,15 @@ $('.crystal4').click(function() {
 });
 
 function startGame() {
-    numberToGuess = Math.floor((Math.random() * 120) + 1);
+    numberToGuess = Math.floor((Math.random() * 120) + 19);
     crystalValue1 = Math.floor((Math.random() * 12) + 1);
     crystalValue2 = Math.floor((Math.random() * 12) + 1);
     crystalValue3 = Math.floor((Math.random() * 12) + 1);
     crystalValue4 = Math.floor((Math.random() * 12) + 1);
     totalGuessed = 0;
+
+    var wins = 0;
+    var losses = 0;
     
     $('#generatedNumber').text(numberToGuess);
     $('#player').text(totalGuessed);
